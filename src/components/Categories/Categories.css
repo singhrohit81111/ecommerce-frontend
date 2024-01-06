@@ -1,0 +1,27 @@
+.categories {
+    .categories-title-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 4px;
+
+        .categories-title {
+            border: 1px solid;
+            margin-left: 10px;
+            font-size: 33px;
+            font-weight: 700;
+            padding: 8px;
+            color: #93863e;
+        }
+    }
+
+    .catgeories-images {
+        display: flex;
+        flex-wrap: wrap;
+
+        img:hover {
+            cursor: pointer;
+            transform: scale(1.02);
+        }
+    }
+}

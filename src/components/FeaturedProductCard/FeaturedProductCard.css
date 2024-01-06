@@ -1,0 +1,11 @@
+.featured-product-card {
+    img:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+
+    .featured-product-name {
+        font-size: 19px;
+        font-weight: 700;
+    }
+}

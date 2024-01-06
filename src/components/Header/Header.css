@@ -1,0 +1,68 @@
+.shopito-header {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+}
+
+.shopito-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shopito-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.shopito-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.shopito-nav a:hover {
+  color: #ebebeb;
+}
+
+.shopito-search {
+  display: flex;
+  align-items: center;
+}
+
+.shopito-search input {
+  padding: 8px;
+  margin-right: 8px;
+  border: none;
+}
+
+.shopito-search button {
+  padding: 8px 16px;
+  background-color: #ee1c2e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.shopito-user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.shopito-user-actions a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.shopito-user-actions a:hover {
+  color: #ebebeb;
+}
