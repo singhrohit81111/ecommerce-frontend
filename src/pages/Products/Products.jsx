@@ -5,7 +5,6 @@ import { FilterOptions } from "@components/FilterOptions";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchData } from "@redux/thunks/data.thunks";
 import {Loader} from '../../components/Loader';
-import './Products.css';
 
 const Products = ({category}) => {
   const [filters, setFilters] = useState({ size: "", price: "" });
