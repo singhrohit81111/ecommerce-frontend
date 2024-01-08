@@ -1,6 +1,5 @@
-// ProductList.js
 import React from "react";
-import "./ProductList.css"; // Import your CSS file for styling
+import "./ProductList.css"; 
 import { ProductCard } from "../ProductCard";
 
 const ProductList = ({ products }) => {

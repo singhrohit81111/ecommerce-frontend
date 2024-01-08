@@ -1,5 +1,4 @@
 import React from 'react'
-import { dummyProducts } from '@constants/dummyProducts'
 import { featuredProducts } from '@constants/featuredProducts';
 import { FeaturedProductCard } from '../FeaturedProductCard'
 import './FeaturedProducts.css';

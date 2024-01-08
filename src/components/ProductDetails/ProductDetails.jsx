@@ -2,7 +2,7 @@ import React from 'react'
 import { Image } from '../Image';
 import './ProductDetails.css';
 import { addProduct } from '@redux/slices/cart.slice';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 

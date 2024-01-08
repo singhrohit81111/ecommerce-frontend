@@ -1,4 +1,3 @@
-// FilterOptions.js
 import React from "react";
 import './FilterOptions.css';
 
@@ -8,7 +7,7 @@ const FilterOptions = ({ onFilterChange }) => {
       <h2>Filter Options</h2>
       <label>
         Size:
-        <select onChange={(e) =>{ onFilterChange("size", e.target.value);console.log(e.target.value);}}>
+        <select onChange={(e) =>{ onFilterChange("size", e.target.value)}}>
           <option value="">All</option>
           <option value="Small">Small</option>
           <option value="Medium">Medium</option>

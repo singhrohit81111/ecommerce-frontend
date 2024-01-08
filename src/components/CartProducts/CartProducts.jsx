@@ -1,6 +1,5 @@
 import React from 'react'
 import { CartProductCard } from '../CartProductCard';
-import { featuredProducts } from '@constants/featuredProducts';
 import { useSelector } from 'react-redux';
 
 export default function CartProducts() {

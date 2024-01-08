@@ -8,7 +8,6 @@ export default function Product() {
   const {id}=useParams();
   const {items}=useSelector(state=>state.data);
   const filteredProduct=items.find(item=>item._id==id);
-  console.log(filteredProduct,id,items);
   return (
     <>
     <Header/>

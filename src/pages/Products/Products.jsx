@@ -34,7 +34,6 @@ const Products = ({category}) => {
       (product.new_price >= parseInt(filters.price.split("-")[0], 10) &&
        product.new_price <= parseInt(filters.price.split("-")[1], 10)))
   ));
-console.log(loading);
   return (
     <div>
       <Header />
