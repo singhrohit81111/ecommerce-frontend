@@ -38,3 +38,18 @@
     box-shadow: 0 0 0 2px rgba(77, 144, 254, 0.2);
   }
   
+
+  @media only screen and (max-width:767px){
+    .filter-options{
+      min-width: 78px;
+    }
+    .filter-options h2{
+      font-size: 13px;
+    }
+    .filter-options label {
+      font-size: 8px;
+    }
+    .filter-options select{
+      font-size: 11px;
+    }
+  }

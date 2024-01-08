@@ -6,7 +6,6 @@ import { ProductCard } from "../ProductCard";
 const ProductList = ({ products }) => {
     return (
         <div className="product-list">
-            <h2>Product List</h2>
             <div className="card-container">
                 {products.map(product => (
                     <ProductCard product={product} />

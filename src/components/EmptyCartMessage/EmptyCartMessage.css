@@ -1,0 +1,11 @@
+/* In EmptyCartMessage.css */
+.empty-cart-message {
+    color: #555;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    margin-top: 262px;
+  }
+  

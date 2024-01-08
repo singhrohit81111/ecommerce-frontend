@@ -19,9 +19,8 @@ export default function ProductDetails({product}) {
                 <div className="product-name">{product.name}</div>
                 <div className="product-size">{product.size}</div>
                 <div className="product-price">₹{product.new_price}</div>
-                <div className="produt description">{product.description}</div>
+                <div className="produt-description">{product.description}</div>
                 <button className="add-to-cart-button" onClick={() => { dispatch(addProduct(product)) }}>Add to Cart</button>
-                <button onClick={()=>{navigate("/cart")}} >cart</button>
             </div>
         </div>
     )

@@ -1,19 +1,15 @@
 import React from 'react'
-import {useSelector} from 'react-redux';
-import { useNavigate } from 'react-router-dom';
-import {Header} from '@components/Header'
-import CartProducts from '@components/CartProducts/CartProducts';
-import CartPriceBar from '@components/CartPriceBar/CartPriceBar';
+import { useSelector } from 'react-redux';
+import { Header } from '@components/Header'
+import { CartsItemsAndPricebar } from '@components/CartsItemsAndPricebar';
+import { EmptyCartMessage } from '@components/EmptyCartMessage';
 
 export default function Cart() {
-  const state=useSelector(state=>{return state.cart});
-  const navigate=useNavigate();
-  console.log(state);
+  const cartLength = useSelector(state => state.cart.products.length);
   return (
     <>
-    <Header/>
-    <CartProducts/>
-    <CartPriceBar/>
+      <Header />
+      {cartLength == 0 ? <EmptyCartMessage /> :<CartsItemsAndPricebar/> }
     </>
   )
 }

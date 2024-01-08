@@ -5,7 +5,6 @@ import './CartPriceBar.css';
 export default function CartPriceBar() {
  const cartProducts=useSelector(state=>state.cart.products);
  let totalPrice=cartProducts.reduce((acc,cartProduct)=>acc+cartProduct.quantity*cartProduct.new_price,0);
- console.log(totalPrice);
     return (
         <div className="price-bar">
             <div className="price-details">

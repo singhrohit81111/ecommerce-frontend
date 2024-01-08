@@ -4,7 +4,7 @@ import './Banner.css';
 
 export default function Banner() {
   return (
-    <div>
+    <div className='banner'>
         <Image url="/images/saleBanner.webp"/>
     </div>
   )

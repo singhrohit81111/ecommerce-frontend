@@ -1,4 +1,7 @@
 .featured-product-card {
+    img{
+        border-radius: 10px;
+    }
     img:hover {
         cursor: pointer;
         transform: scale(1.05);
